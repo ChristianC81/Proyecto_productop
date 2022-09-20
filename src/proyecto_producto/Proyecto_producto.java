@@ -19,8 +19,6 @@ public class Proyecto_producto {
      */
     public static void main(String[] args) {
         // TODO code application logic her
-        System.out.println("cambio1");
-        System.out.println("cambio2");
         ManagerFactory manager = new ManagerFactory();
         ViewLogin vista = new ViewLogin();
         UsuarioJpaController modelo = new UsuarioJpaController(manager.getEntityManagerFactory());
